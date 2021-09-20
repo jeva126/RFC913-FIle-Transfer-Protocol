@@ -1,0 +1,24 @@
+USER invalidUser
+USER userOne
+ACCT invalidAcc
+ACCT accOne
+PASS invalidPass
+PASS passOne
+TYPE Z
+TYPE A
+TYPE C
+TYPE B
+LIST F
+CDIR hello
+CDIR moreFiles
+KILL noSuchFile
+KILL deleteMe.txt
+CDIR ..
+LIST V
+NAME nosuchFile
+TOBE newName.jpg
+NAME renameMe.jpg
+TOBE newName.jpg
+STOR NEW storMe.txt
+STOR APP storMe.txt
+DONE

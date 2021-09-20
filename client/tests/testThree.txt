@@ -1,0 +1,12 @@
+USER invalidUser
+USER userOne
+ACCT invalidAcc
+ACCT accOne
+PASS invalidPass
+PASS passOne
+TYPE B
+RETR retrieveMe.png
+SEND
+STOR NEW storMe.txt
+STOR APP storMe.txt
+DONE

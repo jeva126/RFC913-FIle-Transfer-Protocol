@@ -1,0 +1,8 @@
+#!/bin/zsh
+
+cd ..
+
+javac -d . TCPClient.java
+
+java client.TCPClient
+

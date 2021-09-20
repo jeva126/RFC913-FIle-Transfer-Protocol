@@ -1,0 +1,12 @@
+#!/bin/zsh
+echo "******** YOU HAVE CORRECTLY BEGUN THE TESTING PROCESS ********"
+
+inputs=$1
+echo "List of commands to be run:"
+echo $inputs
+echo "\nCommands: "
+cat $inputs
+
+echo "\n******** RUNNING TESTS NOW ********"
+
+cat $inputs | ./runTest
